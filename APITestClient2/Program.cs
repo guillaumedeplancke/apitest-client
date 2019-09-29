@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace apitest_client
+namespace APITestClient2
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace apitest_client
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmHome());
+            Application.Run(new Form1());
         }
     }
 }

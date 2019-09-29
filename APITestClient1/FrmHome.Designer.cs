@@ -1,4 +1,4 @@
-﻿namespace apitest_client
+﻿namespace APITestClient1
 {
     partial class frmHome
     {
@@ -37,6 +37,7 @@
             this.lblResponse = new System.Windows.Forms.Label();
             this.lblRecentAction = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
+            this.lblRandomInt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblURL
@@ -121,11 +122,21 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // lblRandomInt
+            // 
+            this.lblRandomInt.AutoSize = true;
+            this.lblRandomInt.Location = new System.Drawing.Point(12, 4);
+            this.lblRandomInt.Name = "lblRandomInt";
+            this.lblRandomInt.Size = new System.Drawing.Size(82, 13);
+            this.lblRandomInt.TabIndex = 9;
+            this.lblRandomInt.Text = "Random integer";
+            // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(344, 359);
+            this.Controls.Add(this.lblRandomInt);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.lblRecentAction);
             this.Controls.Add(this.lblResponse);
@@ -153,6 +164,7 @@
         private System.Windows.Forms.Label lblURL;
         private System.Windows.Forms.Label lblRecentAction;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Label lblRandomInt;
     }
 }
 

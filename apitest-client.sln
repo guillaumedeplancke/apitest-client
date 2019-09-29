@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apitest-client", "apitest-client\apitest-client.csproj", "{8A896114-74DC-4A0C-9269-DC99A185B4A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestClient1", "APITestClient1\APITestClient1.csproj", "{8A896114-74DC-4A0C-9269-DC99A185B4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestClient2", "APITestClient2\APITestClient2.csproj", "{486D0EFA-DDC1-476D-8667-61614E657FC4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "APITestCommon", "APITestCommon\APITestCommon.shproj", "{07F4BEBE-9E4D-4CBA-AAC9-90906E32DBF6}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		APITestCommon\APITestCommon.projitems*{07f4bebe-9e4d-4cba-aac9-90906e32dbf6}*SharedItemsImports = 13
+		APITestCommon\APITestCommon.projitems*{486d0efa-ddc1-476d-8667-61614e657fc4}*SharedItemsImports = 4
+		APITestCommon\APITestCommon.projitems*{8a896114-74dc-4a0c-9269-dc99a185b4a9}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,6 +24,10 @@ Global
 		{8A896114-74DC-4A0C-9269-DC99A185B4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A896114-74DC-4A0C-9269-DC99A185B4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A896114-74DC-4A0C-9269-DC99A185B4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486D0EFA-DDC1-476D-8667-61614E657FC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486D0EFA-DDC1-476D-8667-61614E657FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486D0EFA-DDC1-476D-8667-61614E657FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486D0EFA-DDC1-476D-8667-61614E657FC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
