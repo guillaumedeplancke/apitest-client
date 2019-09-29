@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apitest-client-1", "apitest-client-1\apitest-client-1.csproj", "{8A896114-74DC-4A0C-9269-DC99A185B4A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestClient1", "APITestClient1\APITestClient1.csproj", "{8A896114-74DC-4A0C-9269-DC99A185B4A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apitest-client-2", "apitest-client-2\apitest-client-2.csproj", "{486D0EFA-DDC1-476D-8667-61614E657FC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITestClient2", "APITestClient2\APITestClient2.csproj", "{486D0EFA-DDC1-476D-8667-61614E657FC4}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "APITestCommon", "APITestCommon\APITestCommon.shproj", "{07F4BEBE-9E4D-4CBA-AAC9-90906E32DBF6}"
 EndProject

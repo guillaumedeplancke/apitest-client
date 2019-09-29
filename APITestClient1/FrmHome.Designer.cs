@@ -1,4 +1,4 @@
-﻿namespace apitest_client_1
+﻿namespace APITestClient1
 {
     partial class frmHome
     {

@@ -12,7 +12,7 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using APITestCommon;
 
-namespace apitest_client_1
+namespace APITestClient1
 {
     public partial class frmHome : Form
     {
