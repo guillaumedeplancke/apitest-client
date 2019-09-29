@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace apitest_client
+namespace apitest_client_1
 {
     static class Program
     {

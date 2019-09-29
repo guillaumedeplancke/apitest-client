@@ -10,14 +10,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using APITestCommon;
 
-namespace apitest_client
+namespace apitest_client_1
 {
     public partial class frmHome : Form
     {
         public frmHome()
         {
             InitializeComponent();
+
+            this.lblRandomInt.Text = "Random: " + VersionAPI.getRandomInteger();
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)

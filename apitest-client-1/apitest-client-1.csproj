@@ -7,7 +7,7 @@
     <ProjectGuid>{8A896114-74DC-4A0C-9269-DC99A185B4A9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>apitest_client</RootNamespace>
-    <AssemblyName>apitest-client</AssemblyName>
+    <AssemblyName>apitest-client-1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -84,5 +84,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <Import Project="..\APITestCommon\APITestCommon.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
